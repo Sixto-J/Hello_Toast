@@ -28,13 +28,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#d6cc11"
+            android:gravity="center"
             android:text="@string/count_initial_value"
             android:textColor="#222da3"
             android:textSize="@dimen/count_text_size"
             android:textStyle="bold"
-            android:gravity="center"
-            tools:layout_editor_absoluteX="-148dp"
-            tools:layout_editor_absoluteY="-338dp" />
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="196dp" />
 
         <Button
             android:id="@+id/button"
