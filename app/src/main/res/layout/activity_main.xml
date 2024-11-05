@@ -22,18 +22,18 @@
         android:layout_height="match_parent"
         android:background="#d6cc11"
         android:text="@string/count_initial_value"
-        android:textStyle="bold"
+        android:textColor="#222da3"
         android:textSize="@dimen/count_text_size"
-        android:textColor="#222da3"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button_count"
         android:layout_width="@dimen/my_view_width"
         android:layout_height="100dp"
         android:layout_gravity="bottom|center_horizontal"
+        android:background="#222da3"
         android:text="@string/button_label_count"
         android:textColor="@color/white"
-        android:textSize="22sp"
-        android:background="#222da3"/>
+        android:textSize="22sp" />
 
 </LinearLayout>
