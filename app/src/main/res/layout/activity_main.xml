@@ -16,11 +16,7 @@
         android:background="#222da3"
         android:text="@string/button_label_toast"
         android:textColor="@color/white"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="28dp" />
+        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/textView"
@@ -32,9 +28,7 @@
         android:text="@string/count_initial_value"
         android:textColor="#222da3"
         android:textSize="@dimen/count_text_size"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="99dp" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button2"
@@ -44,8 +38,5 @@
         android:background="#222da3"
         android:text="@string/button_label_count"
         android:textColor="@color/white"
-        android:textSize="22sp"
-        app:layout_constraintHorizontal_bias="1"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="596dp" />
+        android:textSize="22sp" />
 </LinearLayout>

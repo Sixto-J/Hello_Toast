@@ -29,9 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 // código a ejecutar cuando sea pulsado
                 TextView tv1 = findViewById(R.id.textView);
                 String text = tv1.getText().toString();
-                Toast.makeText(MainActivity.this, "TU PUNTUACION ES "+text, 4).show();
-
-
+                Toast.makeText(MainActivity.this, "TU PUNTUACION ES "+text, Toast.LENGTH_SHORT).show();
             }
         });
 
